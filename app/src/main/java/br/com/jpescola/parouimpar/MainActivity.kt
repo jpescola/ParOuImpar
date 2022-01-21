@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // gera um registro
-        Log.i(minhaTAG, "app iniciado")
+        Log.i(minhaTAG, "O aplicativo foi iniciado...")
 
         // inicialização dos componentes da UI
         txtResultado = findViewById(R.id.txtResultado)
